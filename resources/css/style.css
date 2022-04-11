@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@300&family=Saira+Condensed:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #282828;
+    display: grid;
+    justify-content: center;
+}
+
+input {
+    background-color: transparent;
+    height: 50px;
+    min-width: 20%;
+    color: white;
+    font-size: 3em;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: 0;
+    margin: 20px;
+}
+
+.form button {
+    height: 70px;
+    min-width: 70px;
+    background-color: transparent;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-container h2 {
+    font-size: 3em;
+    color: #dfe6e9;
+}
+
+.main-container {
+    text-align: center;
+    min-height: 90vh;
+    width: auto;
+    max-width: 800px;
+    min-width: 350px;
+    margin: 2.5rem 2rem 2.5rem 2rem;
+    background-color: #3500D3;
+    border-radius: 20px;
+}
+
+.todo-container {
+    margin: 2.5rem 2rem 5rem 2rem;
+}
+
+.todo-container ul {
+    display: grid;
+    list-style-type: none;
+}
+
+.todo-container ul li {
+    width: 100%;
+    display: flex;
+    border: 2px solid #dfe6e9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-container ul li p {
+    margin-right: 20px;
+}
+
+.todo-list li p {
+    word-break: break-word;
+    font-size: 2em;
+    color: #ecf0f1;
+}
+
+.todo-list li p::first-letter {
+    text-transform: capitalize;
+}
+
+.spanBtn {
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
+    background-color: #282828;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+#btnSpan {
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.deleteBtn {
+    background-image: url(./delete.svg);
+    border: 2px solid #d63031;
+    transition: 0.3s all ease;
+}
+
+.deleteBtn:hover {
+    background-color: #d63031;
+}
+
+.editBtn {
+    background-image: url(./edit.svg);
+    border: 2px solid #2980b9;
+    transition: 0.3s all ease;
+}
+
+.editBtn:hover {
+    background-color: #2980b9;
+}
+
+#createBtn {
+    background-image: url(./add2.svg);
+    background-size: cover;
+}
+
+#closeCreateFormBtn {
+    background-image: url(./close.svg);
+    background-size: cover;
+}
+
+#confirmEditBtn {
+    background-image: url(./check.svg);
+    background-size: cover;
+}
+
+.btnAnim {
+    transition: 0.3s all ease;
+}
+
+.btnAnim:hover {
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#createForm {
+    display: none;
+}
+
+#showFormBtn {
+    background-image: url(./add.svg);
+    background-size: 40px;
+    background-position: center;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    background-color: #8e44ad;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s all ease;
+}
+
+#showFormBtn:hover {
+    width: 100px;
+    height: 100px;
+}
+
+
+#altaC {
+    background-color: #EA2027;
+}
+
+#mediaC {
+    background-color: #ff9f1a;
+}
+
+#bassaC {
+    background-color: #6ab04c;
+}

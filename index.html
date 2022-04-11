@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="./resources/css/favicon.png" />
+    <link rel="stylesheet" href="./resources/node_modules/@sweetalert2/theme-dark/dark.min.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tudu</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <h2>Macis Todo App</h2>
+
+        <span id="createForm">
+            <span class="form">
+                <input type="text" placeholder="Title" class="input-title">
+                <button id="createBtn" class="btnAnim"></button>
+                <button id="closeCreateFormBtn" class="btnAnim"></button>
+            </span>
+        </span>
+
+        <button id="showFormBtn" class="spanBtn"></button>
+
+        <div class="todo-container">
+            <ul class="todo-list" id="alta"></ul>
+            <ul class="todo-list" id="media"></ul>
+            <ul class="todo-list" id="bassa"></ul>
+        </div>
+
+    </div>
+
+    <script src="./resources/scripts/script.js"></script>
+    <script src="./resources/scripts/localS.js"></script>
+    <script src="./resources/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+</body>
+
+</html>
