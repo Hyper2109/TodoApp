@@ -113,7 +113,7 @@ async function addTodo() {
 function deleteTodo() {
   Swal.fire({
     title: 'Sei sicuro?',
-    text: `"${this.parentNode.parentNode.querySelector('p').innerHTML}" verrà eliminato`,
+    text: `"${this.parentNode.parentNode.querySelector('p').innerText}" verrà eliminato`,
     icon: 'warning',
     showCancelButton: true,
     cancelButtonText: 'No',
