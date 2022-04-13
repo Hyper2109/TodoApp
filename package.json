@@ -1,4 +1,11 @@
 {
+  "name": "todoapp-guzza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sweetalert2": "^11.4.8"
+  },
   "devDependencies": {
     "concurrently": "^7.1.0",
     "http-server": "^14.1.0"
@@ -6,5 +13,16 @@
   "scripts": {
     "start": "npm run open",
     "open": "concurrently \"http-server -a localhost -o\""
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyper2109/TodoApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyper2109/TodoApp/issues"
+  },
+  "homepage": "https://github.com/Hyper2109/TodoApp#readme"
 }
