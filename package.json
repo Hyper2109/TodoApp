@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@sweetalert2/theme-dark": "^5.0.10",
     "sweetalert2": "^11.4.8"
   },
   "devDependencies": {
